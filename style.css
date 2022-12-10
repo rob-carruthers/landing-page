@@ -24,7 +24,7 @@ body {
 
 }
 
-.introduction-container {
+.introduction#container {
     display: flex;
     color: #e5e7eb;
     background-color: #1f2937;
@@ -32,23 +32,34 @@ body {
     gap: 48px;
 }
 
-.introduction {
+.introduction#box {
     flex: 1;
+}
+
+.introduction#imagecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
 }
 
 #my-image-1 {
     width: 450px;
     height: auto;
+    flex-shrink: 0;
+    align-self: center;
+    justify-self: center;
 }
 
-.information-container {
+.information#container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.information-header {
+.information#header {
     font-weight: 900;
     font-size: 36px;
     color: #1f2937;
