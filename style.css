@@ -28,8 +28,8 @@ body {
     display: flex;
     color: #e5e7eb;
     background-color: #1f2937;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding: 80px;
+    gap: 48px;
 }
 
 .introduction {
@@ -44,9 +44,51 @@ body {
     align-items: center;
 }
 
+.information-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header {
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    padding: 50px;
+}
+
+.boxes-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.box-entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.box-text {
+    color: #1f2937;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
 .herologo {
     font-size: 24px;
     font-weight: bold;
+    padding: 20px;
+
 }
 
 .heromain {
