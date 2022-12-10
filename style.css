@@ -36,12 +36,9 @@ body {
     flex: 1;
 }
 
-.image-placeholder {
-    flex: 1;
-    background-color: grey;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#my-image-1 {
+    width: 450px;
+    height: auto;
 }
 
 .information-container {
