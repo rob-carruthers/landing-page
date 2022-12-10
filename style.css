@@ -97,10 +97,11 @@ body {
     font-weight: 900;
 }
 
-.herosecondary {
+.secondary {
     display: flex;
     font-size: 18px;
     gap: 16px;
+    margin-bottom: 16px;
 }
 
 .signup {
@@ -139,6 +140,48 @@ body {
     text-align: right;
     font-size: 24px;
     padding: 20px;
+}
+
+
+.calltoaction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.calltoaction-box {
+    background: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    color: #f9faf8;
+    padding: 100px;
+    gap: 128px;
+}
+
+.calltoaction {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.signup#whiteborder {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    background: #1f2937;
+    color: #f9faf8;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
 }
 
 a {
